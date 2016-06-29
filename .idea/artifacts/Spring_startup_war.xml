@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Spring-startup:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Sparing-Startup.war">
+    <root id="archive" name="Spring-Startup.war">
       <element id="artifact" artifact-name="Spring-startup:war exploded" />
     </root>
   </artifact>
