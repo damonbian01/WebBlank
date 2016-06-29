@@ -16,7 +16,7 @@
     <!-- 配置文件设置 -->
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="location">
-            <value>jdbc.properties</value>
+            <value>classpath:jdbc.properties</value>
         </property>
     </bean>
 
