@@ -21,6 +21,14 @@
     </bean>
 
     <!-- dataSource配置 -->
+    <bean id="dbcpDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="${dbcp.driverClass}" />
+        <property name="url" value="${dbcp.jdbcUrl}" />
+        <property name="username" value="${dbcp.user}" />
+        <property name="password" value="${dbcp.password}" />
+    </bean>
+
     <bean id="c3p0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${c3p0.driverClass}"/>
         <property name="jdbcUrl" value="${c3p0.jdbcUrl}"/>
@@ -37,7 +45,7 @@
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
           abstract="false" lazy-init="false" autowire="default">
         <property name="dataSource">
-            <ref bean="c3p0DataSource"/>
+            <ref bean="dbcpDataSource"/>
         </property>
     </bean>
 

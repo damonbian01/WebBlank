@@ -21,8 +21,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.4.RELEASE" />
-          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.2" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
           <element id="library" level="project" name="Maven: org.mortbay.jetty:jsp-2.1:7.0.0pre2" />
           <element id="library" level="project" name="Maven: org.eclipse.jdt:core:3.1.1" />
           <element id="library" level="project" name="Maven: org.mortbay.jetty:jsp-api-2.1:7.0.0pre2" />
