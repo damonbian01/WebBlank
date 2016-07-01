@@ -7,7 +7,7 @@
     <!-- param配置 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:applicationContext-main.xml, classpath:applicationContext-datasource.xml</param-value>
+        <param-value>classpath:applicationContext-main.xml, classpath:applicationContext-datasource.xml, classpath:view-resolver.xml</param-value>
     </context-param>
 
     <!-- Spring容器启动 -->
