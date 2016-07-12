@@ -11,6 +11,9 @@ public class TestUservo {
     private int id;
     private String name;
 
+    public TestUservo() {
+    }
+
     public int getId() {
         return id;
     }
@@ -30,5 +33,13 @@ public class TestUservo {
     public TestUservo(int id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "TestUservo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
